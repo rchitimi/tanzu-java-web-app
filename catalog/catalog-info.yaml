@@ -1,6 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
+  links:
+    - url: https://tanzu-java-web-app.dev.tap.h2o-4-23494.h2o.vmware.com/
+      title: Demo app
   name: tanzu-java-web-app
   description: Tanzu Java Web App
   tags:
